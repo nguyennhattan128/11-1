@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>do-while</title>
+</head>
+<body>
+<script>
+    var sum = 0;
+    //NaN được xem như một kiểu Number.
+    var number;
+    do {
+        number= parseInt(prompt('nhap so'));
+        sum += number;
+    } while (number!=0)
+        //neu nhu  sum khong co gia tri thi ko thuc hien dc phep tinh
+        document.write("tong la " + sum);
+    // cú pháp do{
+    // statements(s)
+    // }while()
+    // ........array. object
+    // let text = "";
+    // let cars = ["c","o", "d", "e", "g", "y", "m"];
+    // text += cars[0] + "<br>";
+    // text += cars[1] + "<br>";
+    // text += cars[2] + "<br>";
+    // text += cars[3] + "<br>";
+    // text += cars[4] + "<br>";
+    // text += cars[5] + "<br>";
+    // document.write(text);
+    let text = "";
+    let cars = ["c","o", "d", "e", "g", "y", "m"];
+    for (i = 0; i < cars.length; i++) {
+        text += cars[i] + "<br>";
+    }
+    document.write(text);
+</script>
+</body>
+</html>
